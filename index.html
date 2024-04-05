@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danton Leandro - Desenvolvedor FrontEnd</title>
+
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/font-awesome.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+
+    <!-- Global -->
+    <link rel="stylesheet" href="./src/css/globais.css" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/secoes/header.css" />
+    <link rel="stylesheet" href="./src/css/secoes/home.css" />
+    <link rel="stylesheet" href="./src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="./src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="./src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="./src/css/secoes/footer.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between alinhar-itens-centro">
+                <a href="#">
+                    <h1 class="logo">DL</h1>
+                </a>
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox" />
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre mim</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Meus projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen alinhar-itens-centro">
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img class="outer-shadow" src="./src/images/foto-perfil.jpg" alt="foto do perfil" />
+                    </div>
+                </div>
+                <div class="texto-home">
+                    <p>Olá, meu nome é</p>
+                    <h1>Danton Leandro</h1>
+                    <h2>Desenvolvedor Frontend</h2>
+
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/danton-leandro-01313a1a0/" class="outer-shadow" alt="LinkedIn" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/+5511946598466" class="outer-shadow" alt="WhatsApp" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp" ></i></a>
+                        <a href="https://github.com/DantGamerBR" class="outer-shadow" alt="GitHub" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/dantonleandro1/" class="outer-shadow" alt="Instagram" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="imagem-sobre-mim">
+                    <div class="img-box inner-shadow">
+                        <img src="./src/images/foto-perfil.jpg" alt="foto sobre mim" class="outer-shadow" />
+                    </div>
+                </div>
+                <div class="informacoes-sobre-mim">
+                    <p>
+                        <strong>Olá, muito bem-vindo(a)! Me chamo Danton Leandro, sou um desenvolvedor FrontEnd em
+                            formação!</strong>
+                        Sou apaixonado pela área de tecnologia 🤖, estou sempre em constante aprendizado, melhorando a
+                        cada dia. 📈
+                    </p>
+
+                    <p>
+                        Nesse ramo é necessário estar sempre se atualizando, por isso estou sempre me desafiando com
+                        novos projetos, e também participando de comunidades de programação para buscar feedback de
+                        outros desenvolvedores em busca de aprendizado, e ajudando sempre que possível. 😁
+                    </p>
+
+                    <p>
+                        Sou Cristão ✝ e busco seguir os passos de Jesus, gosto muito de jogos 🎮, música 🎸, anime 🎌, livros 📕 e
+                        filmes 🎬.
+                    </p>
+
+                    <div class="botoes">
+                        <a target="_blank" href="./src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Habilidades</h2>
+                </div>
+            </div>
+
+            <div class="container-habilidades">
+                <div class="informacoes html">
+                    <div class="logo">
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><i class="devicon devicon-html5-plain-wordmark" id="html"></i></a>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Hyper Text Markup Language / Linguagem de marcação de hipertexto. O HTML é uma linguagem de marcação, podendo desenvolver páginas web usando as tags, assim adicionando elementos à página. </p>
+                </div>
+
+                <div class="informacoes css">
+                    <div class="logo">
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><i class="devicon devicon-css3-plain-wordmark" id="css"></i></a>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Cascanding Style Sheet / Folhas de estilo em cascata. É utilizada para estilizar a página. A estilização respeita uma ordem de menor para maior importância, por isso o nome “cascata”.</p>
+                </div>
+
+                <div class="informacoes javascript">
+                    <div class="logo">
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><i class="devicon devicon-javascript-plain" id="javascript"></i></a>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+                </div>
+
+                <div class="informacoes git">
+                    <div class="logo">
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Git" target="_blank"><i class="devicon devicon-git-plain" id="git"></i></a>
+                    </div>
+                    <h3>Git</h3>
+                    <p>Um tipo de VCS / Version Control System. É um sistema de controle de versão, e ele vai ser o responsável por versionar o nosso código.</p>
+                </div>
+
+                <div class="informacoes github">
+                    <div class="logo">
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub" target="_blank"><i class="devicon devicon-github-original" id="github"></i></a>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Serviço / local onde podemos criar projetos, dentro de repositórios, e compartilhar isso com outras pessoas. É uma plataforma web onde conseguimos colocar projetos que estão versionados usando Git.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Meus projetos</h2>
+                </div>
+            </div>
+
+            <div class="container-projetos">
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/projeto-gta/" target="_blank">
+                        <img src="./src/images/pagina-gta.png" alt="Projeto GTA"/>
+                        <h3>Projeto GTA</h3>
+                        <div class="informacoes-projeto">
+                            <p>Um clone da página da Rockstar Games. Projeto desenvolvido utilizando HTML, CSS e JavaScript.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/landing-page-com-grid-e-flex/" target="_blank">
+                        <img src="./src/images/landing-page.png" alt="Landing Page"/>
+                        <h3>Landing Page</h3>
+                        <div class="informacoes-projeto">
+                            <p>Uma Landing Page de Agência de viagens, um layout que conta com várias seções. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/nft-preview-card-component/" target="_blank">
+                        <img src="./src/images/nft-card.png" alt="NFT Preview"/>
+                        <h3>NFT Preview Card</h3>
+                        <div class="informacoes-projeto">
+                            <p>Um layout de NFT Card. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/quest-html-css-avancado/" target="_blank">
+                        <img src="./src/images/huddle-landing-page.png" alt="Huddle Landing Page"/>
+                        <h3>Huddle Landing Page</h3>
+                        <div class="informacoes-projeto">
+                            <p>Uma seção introdutória de uma Landing Page. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/exercicio-html-css-avancado/advice-generator/index.html" target="_blank">
+                        <img src="./src/images/advice-generator.png" alt="Gerador de conselhos"/>
+                        <h3>Advice Generator</h3>
+                        <div class="informacoes-projeto">
+                            <p>Layout de um Gerador de conselhos. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/exercicio-html-css-avancado/layout-youtube-com-grid/index.html" target="_blank">
+                        <img src="./src/images/layout-youtube.png" alt="Layout YouTube"/>
+                        <h3>Layout YouTube</h3>
+                        <div class="informacoes-projeto">
+                            <p>Um clone do Layout do YouTube. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/exercicio-html-css-avancado/lista-imagens/index.html" target="_blank">
+                        <img src="./src/images/lista-imagens.png" alt="Lista de Imagens"/>
+                        <h3>Lista de Imagens</h3>
+                        <div class="informacoes-projeto">
+                            <p>Uma Lista de imagens. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/exercicio-html-css-avancado/menu-com-flex/index.html" target="_blank">
+                        <img src="./src/images/menu-flex.png" alt="Menu de página"/>
+                        <h3>Menu de página</h3>
+                        <div class="informacoes-projeto">
+                            <p>Um Menu de cabeçalho. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://dantgamerbr.github.io/exercicio-html-css-avancado/profile-card/profile-card/index.html" target="_blank">
+                        <img src="./src/images/profile-card.png" alt="Cartão de perfil"/>
+                        <h3>Cartão de perfil</h3>
+                        <div class="informacoes-projeto">
+                            <p>Um Cartão de perfil. Projeto desenvolvido utilizando HTML e CSS.</p>
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Me envie uma mensagem!</h2>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/danton-leandro-01313a1a0/" class="outer-shadow" alt="LinkedIn" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://wa.me/+5511946598466" class="outer-shadow" alt="WhatsApp" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp" ></i></a>
+                <a href="https://github.com/DantGamerBR" class="outer-shadow" alt="GitHub" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/dantonleandro1/" class="outer-shadow" alt="Instagram" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>"Portanto, quer comais, quer bebais ou façais outra qualquer coisa, fazei tudo para a glória de Deus. - ICoríntios 10:11"</p>
+        </div>
+    </footer>
+</body>
+
+</html>

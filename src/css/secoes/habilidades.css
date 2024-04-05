@@ -1,0 +1,62 @@
+/* HABILIDADES */
+.habilidades .container-habilidades {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .informacoes {
+    max-width: 350px;
+    padding: 40px 20px;
+}
+
+.habilidades .container-habilidades .informacoes p,
+.habilidades .container-habilidades .informacoes h3,
+.habilidades .container-habilidades .informacoes .logo i {
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilidades .container-habilidades .informacoes:hover .logo .devicon-html5-plain-wordmark,
+.habilidades .container-habilidades .informacoes.html:hover h3 {
+    color: #ec6231;
+}
+
+.habilidades .container-habilidades .informacoes:hover .logo .devicon-css3-plain-wordmark,
+.habilidades .container-habilidades .informacoes.css:hover h3 {
+    color: #264de4;
+}
+
+.habilidades .container-habilidades .informacoes:hover .logo .devicon-javascript-plain,
+.habilidades .container-habilidades .informacoes.javascript:hover h3 {
+    color: #F0DB4F;
+}
+
+.habilidades .container-habilidades .informacoes:hover .logo .devicon-git-plain,
+.habilidades .container-habilidades .informacoes.git:hover h3 {
+    color: #F1502F;
+}
+
+.habilidades .container-habilidades .informacoes:hover .logo .devicon-github-original,
+.habilidades .container-habilidades .informacoes.github:hover h3 {
+    color: #dcdcdc;
+}
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 8rem;
+}
